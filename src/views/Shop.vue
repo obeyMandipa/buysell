@@ -11,7 +11,7 @@
     <div class="mt-[40px] pl-[90px] pr-[90px] bg-red-200">
       <p class="text-[30px] font-bold ">Prodcuts for you...</p>
 
-      <div class="products flex justify-between mt-[40px]">
+      <div class="products grid grid-cols-4 gap-2 mt-[40px]">
         <div class="card card-compact bg-base-100 w-[400px] h-[400px] shadow-xl">
           <figure>
             <img
@@ -22,7 +22,7 @@
             <h2 class="card-title">Shoes!</h2>
             <p >$50</p>
             <div class="card-actions justify-end">
-              <button class="btn rounded-[30px] bg-transparent border-2 border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Add to cart</button>
+              <button class="btn rounded-[30px] bg-transparent border-2 border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white duration-300">Add to cart</button>
             </div>
           </div>
         </div>
