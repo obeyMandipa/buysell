@@ -5,7 +5,9 @@
     <navbar2 class="border-b-2"></navbar2>
    </header>
    <main>
-    <div class="h-[50vh] bg-violet-300">
+    <div class="h-[50vh] bg-gradient-to-r from-violet-300  flex justify-between ">
+      <p class="text-[70px] font-bold  w-[1000px] ml-[70px] mt-[60px]">Get the best online shoping experienc...</p> 
+      <img src="https://i.pinimg.com/564x/19/87/b2/1987b281f2e6105a9f0f5499e6934be9.jpg" alt="" class="rounded-full mr-[40px] h-[500px]">
 
     </div>
     <div class="mt-[40px] pl-[90px] pr-[90px]">
