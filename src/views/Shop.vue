@@ -12,7 +12,7 @@
       <p class="text-[30px] font-bold ">Prodcuts for you...</p>
 
       <div class="products grid grid-cols-4 gap-2 mt-[40px]">
-        <div class="card card-compact bg-base-100 w-[400px] h-[400px] shadow-xl">
+        <div class="card card-compact bg-base-100 w-[400px] h-[400px] shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <figure>
             <img
               src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
