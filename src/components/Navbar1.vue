@@ -10,7 +10,7 @@
         </nav> 
       </div>
       <div class="space-x-[20px]">
-        <button class="btn w-[130px] text-[17px] transition ease-in-out delay-150 bg-transparent hover:-translate-y-1 hover:scale-110 border-2 border-black hover:bg-transparent duration-300 ..."><RouterLink to="/shop"</RouterLink></button>
+       <RouterLink to="/shop"> <button class="btn w-[130px] text-[17px] transition ease-in-out delay-150 bg-transparent hover:-translate-y-1 hover:scale-110 border-2 border-black hover:bg-transparent duration-300 ...">Shop</button></RouterLink> 
         <button class="btn w-[130px] text-[17px] transition ease-in-out delay-150 bg-black hover:-translate-y-1 hover:scale-110 hover:bg-black border-2 border-black duration-300 ... text-white">Sign up </button>
       </div>
     </div>

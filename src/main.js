@@ -6,6 +6,7 @@ import router from './router'
 import './index.css'
 import PrimeVue from "primevue/config";
 import Aura from '@primevue/themes/aura';
+import { PrimeIcons } from '@primevue/core/api';
 
 
 
