@@ -40,7 +40,13 @@
                 <button class="btn btn-sm btn-circle btn-ghost absolute text-white font-bolder bg-red-500 hover:bg-red-500 right-2 top-2">✕</button>
               </form>
               <div class="flex space-x-[140px]">
-                <img src="https://i.pinimg.com/736x/53/67/56/5367560231aca4739af4fe5e8f88fa71.jpg" alt="" class=" shadow-2xl h-[600px] w-[600px] rounded-[20px]">
+
+                <!-- product image -->
+                <div class="">
+                  <img src="https://i.pinimg.com/736x/53/67/56/5367560231aca4739af4fe5e8f88fa71.jpg" alt="" class=" rounded-[20px] shadow-xl h-[650px] w-[700px]">
+                </div>
+
+                <!-- product information -->
                 <div class="details h-[700px] w-[750px] ">
                   <p class="text-[30px] font-bold">Prodcut name</p>
                   <p class="">Product discription</p>
@@ -64,9 +70,13 @@
                     <p class="mt-[10px]">Adjust your order quantity</p>
                   </div>
                   <div class="flex space-x-4 mt-[30px]">
-                    <button class="btn w-[200px] rounded-[30px] bg-transparent border-2 border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-black text-[16px] hover:text-white duration-300">Buy</button>
+                    <button class="btn w-[200px] rounded-[30px] bg-transparent border-2 border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-black text-[16px] hover:text-white duration-300" onclick="my_modal_5.showModal()">Buy</button>
                     <button class="btn w-[200px] rounded-[30px] bg-transparent border-2 border-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-black text-[16px] hover:text-white duration-300">Add to cart</button>
                   </div>
+
+                  <!-- payment modal component -->
+                   <PaymentModal></PaymentModal>
+
                   <div class=" mt-[40px] border-t-2 p-2 border-gray-500 flex justify-between">
                     <div class="">
                       <p class="flex gap-2 text-[15px] font-bold">
@@ -81,56 +91,19 @@
                       </label>
                     </div>
                   </div>
+                  <div class=" p-2 border-gray-500 flex justify-between">
+                    <div class="">
+                      <p class="flex gap-2 text-[15px] font-bold">
+                        <svg class="h-[26px] w-[26px] text-orange-500"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />  <line x1="3" y1="6" x2="21" y2="6" />  <path d="M16 10a4 4 0 0 1-8 0" /></svg>Return delivery
+                      </p>
+                      <p class="text-[13px]">Free 30day delivery returns</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </dialog>
-
-        <div class="card card-compact bg-base-100 w-[400px] h-[400px] shadow-xl">
-          <figure>
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Shoes!</h2>
-            <p >$50</p>
-            <div class="card-actions justify-end">
-              <button class="btn rounded-[30px] bg-transparent border-2 border-black  ">Add to cart</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card card-compact bg-base-100 w-[400px] h-[400px] shadow-xl">
-          <figure>
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Shoes!</h2>
-            <p >$50</p>
-            <div class="card-actions justify-end">
-              <button class="btn rounded-[30px] bg-transparent border-2 border-black">Add to cart</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="card card-compact bg-base-100 w-[400px] h-[400px] shadow-xl">
-          <figure>
-            <img
-              src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-              alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title">Shoes!</h2>
-            <p >$50</p>
-            <div class="card-actions justify-end">
-              <button class="btn rounded-[30px] bg-transparent border-2 border-black">Add to cart</button>
-            </div>
-          </div>
-        </div>
       </div>
 
       
@@ -143,6 +116,7 @@
 
 <script>
 import Navbar2 from '@/components/Navbar2.vue';
+import PaymentModal from '@/components/PaymentModal.vue';
 
 export default {
   name: 'Shop',
@@ -160,6 +134,7 @@ export default {
 
   components: {
     Navbar2,
+    PaymentModal
   },
   methods: {
     addUnit(){
