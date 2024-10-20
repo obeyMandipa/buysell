@@ -6,42 +6,42 @@
         <Navbar1></Navbar1>
 
         <div class="flex">
-          <p class="text-[70px] font-bold  w-[1000px] ml-[70px] mt-[60px]">
+          <p class="relative text-[30px] sm:text-[70px] font-bold  sm:w-[1000px] w-[900px] ml-[70px] mt-[60px] ">
             Getting the best experience in buying, selling and exploring...
           </p>
 
           <div class="flex ">
-            <img src="https://i.pinimg.com/564x/f6/09/41/f6094121ae8689a84eebb990d664440a.jpg" alt="" class="h-[600px] rounded-[350px] mt-[100px] ml-[60px]">
-            <img src="https://i.pinimg.com/736x/a0/7f/21/a07f2141f649d6122dd1db4d5863b95f.jpg" alt="" class="absolute h-[250px] w-[250px] rounded-full ml-[570px] mt-[70px]">
-            <img src="https://i.pinimg.com/564x/40/0f/02/400f0222ff7bd0442c68e4a27fbd1b3a.jpg" alt="" class="absolute h-[300px] w-[320px] rounded-full ml-[-200px] mt-[250px]"
+            <img src="https://i.pinimg.com/564x/f6/09/41/f6094121ae8689a84eebb990d664440a.jpg" alt="" class="h-[250px] sm:w-[600px] w-[1000px] sm:h-[600px] rounded-[350px] sm:mt-[100px] mt-[250px] sm:ml-[60px] ml-[-80px]">
+            <img src="https://i.pinimg.com/736x/a0/7f/21/a07f2141f649d6122dd1db4d5863b95f.jpg" alt="" class="absolute sm:h-[250px] h-[100px] sm:w-[250px] w-[100px] rounded-full sm:ml-[570px] ml-[80px] sm:mt-[70px] mt-[200px]">
+            <img src="https://i.pinimg.com/564x/40/0f/02/400f0222ff7bd0442c68e4a27fbd1b3a.jpg" alt="" class="absolute h-[150px] sm:h-[300px] w-[150px] sm:w-[320px] rounded-full sm:ml-[-200px] ml-[-210px] sm:mt-[250px] mt-[310px]"
           </div>
         </div>
       </div>
     </header>
 
-    <main class=" mt-[30vh]">
-      <div class=" space-y-11">
+    <main class=" sm:mt-[30vh] mt-[10vh]">
+      <div class=" sm:space-y-11 space-y-[2px]">
         <div class="explore h-[90vh] flex flex-col justify-center items-center">
           <h1 class="font-bold text-[40px]">Explore...</h1>
-          <p class="text-center text-[20px] text-balance w-[1000px] italic">"Discover a world of possibilities. Explore our curated selection of products that cater to your every need and desire. From fashion to electronics, find what you're looking for and more"</p>
+          <p class="text-center text-[20px] text-balance sm:w-[1000px] w-[500px] italic">"Discover a world of possibilities. Explore our curated selection of products that cater to your every need and desire. From fashion to electronics, find what you're looking for and more"</p>
           <div class="flex space-x-[40px] mt-[50px]">
-            <img src="https://i.pinimg.com/originals/1b/1e/37/1b1e37721cf248b07ae7ed07966df60b.gif" alt="" class="h-[600px]">
+            <img src="https://i.pinimg.com/originals/1b/1e/37/1b1e37721cf248b07ae7ed07966df60b.gif" alt="" class="sm:h-[600px] h-[300px]">
           </div>
         </div>
         
         <div class="buy h-[90vh] flex flex-col justify-center items-center">
           <h1 class="font-bold text-[40px]">Buy...</h1>
-          <p class="text-center text-[20px] text-balance w-[1000px] italic">"Experience seamless shopping with our wide selection of products available for purchase on our ecommerce website. Explore and buy your desired items with just a few clicks, and enjoy secure transactions and swift delivery to your doorstep."</p>
+          <p class="text-center text-[20px] text-balance sm:w-[1000px] w-[500px] italic">"Experience seamless shopping with our wide selection of products available for purchase on our ecommerce website. Explore and buy your desired items with just a few clicks, and enjoy secure transactions and swift delivery to your doorstep."</p>
           <div class="flex space-x-[40px] mt-[50px]">
-            <img src="https://i.pinimg.com/originals/db/31/45/db31456e87cb51334779cba9386dcc83.gif" alt="" class="h-[600px]">
+            <img src="https://i.pinimg.com/originals/db/31/45/db31456e87cb51334779cba9386dcc83.gif" alt="" class="sm:h-[600px] h-[300px]">
           </div>
         </div>
 
         <div class="sell h-[90vh] flex flex-col justify-center items-center">
           <h1 class="font-bold text-[40px]">Sell...</h1>
-          <p class="text-center text-[20px] text-balance w-[1000px] italic">"Join our thriving online marketplace and unlock the potential to sell your products effortlessly. Showcase your offerings to a vast audience, tap into new markets, and elevate your brand visibility. Start selling with ease and let your products find their way to eager customers through our ecommerce platform."</p>
+          <p class="text-center text-[20px] text-balance sm:w-[1000px] w-[500px] italic">"Join our thriving online marketplace and unlock the potential to sell your products effortlessly. Showcase your offerings to a vast audience, tap into new markets, and elevate your brand visibility. Start selling with ease and let your products find their way to eager customers through our ecommerce platform."</p>
           <div class="flex space-x-[40px] mt-[50px]">
-            <img src="https://i.pinimg.com/originals/95/f7/ab/95f7ab5f277ffda2476d55956f2ebd7a.gif" alt="" class="h-[600px]">
+            <img src="https://i.pinimg.com/originals/95/f7/ab/95f7ab5f277ffda2476d55956f2ebd7a.gif" alt="" class="sm:h-[600px] h-[300px] border">
           </div>
         </div>
       </div>
